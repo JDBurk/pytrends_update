@@ -9,36 +9,32 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - python-requests/2.28.1
+      - python-requests/2.32.5
     method: GET
     uri: https://trends.google.com/trends/explore/?geo=US
   response:
     body:
-      string: !!binary |
-        H4sIAAAAAAAAALxU224bNxD9FUaGATswtZfYVbI3tCia9KEIekmeDe5ydpcwl2RJrleOIKC/0d/r
-        l3RISbFjoECAon2RwOHsnDNnhqca/SSJZGqoQTXVBJ6RbmTWga9n39PXx5hiE9T3AhajrSedVh6U
-        r1dCCS+YpK5jEursikwYmebpMbAI7seaw73ogMbDqqm88BKaH6zVllyn1+TivfbkrZ4Vv3zxIquS
-        w33l/IMEorTqoF4x4B/n7P1v9Of29pvlHf3u+x/V5pdV83I3MTsIVaSlYZwLNRTpPnR11WkOux6p
-        FtmN2SZ5braEWaR75Zhy1IEVfczctay7G2zAL876vi87LbUtzvI8/1wzlNi3mj/snlx62HrKpBhU
-        MSuUrDxS2ZwTNntNUgxsD10Xr96kZluiPnQEMYxI6nUInOq/wgNJSYAp9y9JQyLWE2KzlRdJsizL
-        etB6kLDu9JSIiQ3gEghKusTqVvu1UcMlydL0nGAtVI9aMMD8CYnaiJ6noSFzEi/LInzQqNT3YHup
-        l2IUnIPaGwu7ZRQeqDOsgwLPdLHMlHuh3EmOzWZzkINDpy3zQqsCJwd7RsQ07FptOViczLcTcMGI
-        6yyAIkxxcvGo0WaD+Je7562HOkdpqdemeCprvPuytXS/P5N60F+rXmuRBn6eHK7Cp0m2fXK6jT3e
-        Zjfp9uaam4PCj8IemUnofUGDqscetZIPXzaKWRaclnOUJ3uTcyMud/+abP71ZAmuRXqexPUIPyWd
-        9Cd6mA6NEP8BOg7knyShC7R3wtMgzdEkjNiCpHGFivz/Vac80XmEo058guKzXqfV4sIZyR4KoaRQ
-        QFupu7vy+LBvrvERHbYTcXAfqiQ6GVopE4oIjmbW0/hmaXBSDIJdEavRMVchBR2SkdFCXz/vEz3R
-        sFgisIhuRiVrQdbvYs6hCD64BjExE/9YU5mmahv02XWVtA2p8NU2H0bm//rjT4dTIJEJ3oU45n4Y
-        sQz8PoPzwMnHX38iC3OokSd9EARnSPwoHEH/RKNYP68nJVmA3Cm9nEomoafmbwAAAP//AwD/yFDg
-        agYAAA==
+      string: "<html lang=\"en\" dir=ltr><meta charset=utf-8><meta name=viewport content=\"initial-scale=1,
+        minimum-scale=1, width=device-width\"><title>Error 404 (Not Found)!!1</title><style
+        nonce=\"Rb2Jlr3hVXVHeYpzKMWQYw\">*{margin:0;padding:0}html,code{font:15px/22px
+        arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{color:#222;text-align:unset;margin:7%
+        auto 0;max-width:390px;min-height:180px;padding:30px 0 15px;}* > body{background:url(//www.google.com/images/errors/robot.png)
+        100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}pre{white-space:pre-wrap;}ins{color:#777;text-decoration:none}a
+        img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png)
+        no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png)
+        no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png)
+        0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png)
+        no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}</style><main
+        id=\"af-error-container\" role=\"main\"><a href=//www.google.com><span id=logo
+        aria-label=Google role=img></span></a><p><b>404.</b> <ins>That\u2019s an error.</ins><p>The
+        requested URL was not found on this server. <ins>That\u2019s all we know.</ins></main>"
     headers:
-      Alt-Svc:
-      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
       Cache-Control:
       - no-cache, no-store, max-age=0, must-revalidate
       Content-Encoding:
       - gzip
       Content-Security-Policy:
-      - 'script-src ''nonce-1p4htRG8kWur4XY2jpIAeA'' ''unsafe-inline'' ''strict-dynamic''
+      - 'script-src ''nonce-me3tygVYokEdfBA_PfEB9w'' ''unsafe-inline'' ''strict-dynamic''
         https: http: ''unsafe-eval'';object-src ''none'';base-uri ''self'';report-uri
         /cspreport'
       Content-Type:
@@ -46,7 +42,7 @@ interactions:
       Cross-Origin-Opener-Policy:
       - same-origin-allow-popups
       Date:
-      - Sun, 26 Mar 2023 08:09:18 GMT
+      - Thu, 18 Sep 2025 06:04:34 GMT
       Expires:
       - Mon, 01 Jan 1990 00:00:00 GMT
       P3P:
@@ -56,8 +52,8 @@ interactions:
       Server:
       - GSE
       Set-Cookie:
-      - NID=511=lwDJZhkVTZCsPr6lfPMRR9U2fHR8otQUgsHhSPSUrHzZLMxT9gVlpt6ArTcCLVE_IuVwKHOd_mfqQloT1EO_aIjSzfH5LZMh-sWE_NaGQIxiAu1GiTMuCV4eyy0dHR9fl2GjbKUJ5pg7_1fQLImqJRIUeEnCxOOZWuTjiSGNsfM;
-        expires=Mon, 25-Sep-2023 08:09:18 GMT; path=/; domain=.google.com; HttpOnly
+      - NID=525=WK7_r1iILLDes5naC-MTs2MTaaLhA__OQ9O8kA8k0t4sa1_8zM-9BVaC2eX9VF8NjjpAU-veBkDOJfxZ9FXZh38oQ5IbWAqhtS2iM4KhYb9y9hj3XNxFNThbXorlHMCxdEt51lGUudhaUxOQPATkp9XxLaSjxf73EXnQK-nISYg;
+        expires=Fri, 20-Mar-2026 06:04:34 GMT; path=/; domain=.google.com; HttpOnly
       Transfer-Encoding:
       - chunked
       X-Content-Type-Options:
@@ -79,88 +75,40 @@ interactions:
       Content-Length:
       - '0'
       Cookie:
-      - NID=511=lwDJZhkVTZCsPr6lfPMRR9U2fHR8otQUgsHhSPSUrHzZLMxT9gVlpt6ArTcCLVE_IuVwKHOd_mfqQloT1EO_aIjSzfH5LZMh-sWE_NaGQIxiAu1GiTMuCV4eyy0dHR9fl2GjbKUJ5pg7_1fQLImqJRIUeEnCxOOZWuTjiSGNsfM
+      - NID=525=WK7_r1iILLDes5naC-MTs2MTaaLhA__OQ9O8kA8k0t4sa1_8zM-9BVaC2eX9VF8NjjpAU-veBkDOJfxZ9FXZh38oQ5IbWAqhtS2iM4KhYb9y9hj3XNxFNThbXorlHMCxdEt51lGUudhaUxOQPATkp9XxLaSjxf73EXnQK-nISYg
       User-Agent:
-      - python-requests/2.28.1
+      - python-requests/2.32.5
       accept-language:
       - en-US
     method: POST
     uri: https://trends.google.com/trends/api/explore?hl=en-US&tz=360&req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22pizza%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%2C+%7B%22keyword%22%3A+%22bagel%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22youtube%22%7D
   response:
     body:
-      string: !!binary |
-        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
-        P62hIgAA
+      string: "<HTML><HEAD><meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<TITLE>302
+        Moved</TITLE></HEAD><BODY>\n<H1>302 Moved</H1>\nThe document has moved\n<A
+        HREF=\"https://www.google.com/sorry/index?continue=https://trends.google.com/trends/api/explore%3Fhl%3Den-US%26tz%3D360%26req%3D%257B%2522comparisonItem%2522%253A%2B%255B%257B%2522keyword%2522%253A%2B%2522pizza%2522%252C%2B%2522time%2522%253A%2B%25222021-01-01%2B2021-01-05%2522%252C%2B%2522geo%2522%253A%2B%2522%2522%257D%252C%2B%257B%2522keyword%2522%253A%2B%2522bagel%2522%252C%2B%2522time%2522%253A%2B%25222021-01-01%2B2021-01-05%2522%252C%2B%2522geo%2522%253A%2B%2522%2522%257D%255D%252C%2B%2522category%2522%253A%2B0%252C%2B%2522property%2522%253A%2B%2522youtube%2522%257D&amp;hl=en-US&amp;q=EhD9o-ciCsPMAABmsRsKhADvGPLBrsYGIi-KsVMrpbpsUBIyWqnRI38r23pCBomd1tJuPwYtOZdESwOEob1pCFE9JNxbMIlg9TICclJaAUM\">here</A>.\r\n</BODY></HTML>\r\n"
     headers:
-      Alt-Svc:
-      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
       Cache-Control:
-      - no-cache, no-store, max-age=0, must-revalidate
-      Content-Disposition:
-      - attachment; filename="json.txt"; filename*=UTF-8''json.txt
-      Content-Encoding:
-      - gzip
-      Content-Security-Policy:
-      - 'script-src ''nonce-2Ifh099XfEs3t0arkvJ-kw'' ''unsafe-inline'' ''strict-dynamic''
-        https: http: ''unsafe-eval'';object-src ''none'';base-uri ''self'';report-uri
-        /trends/cspreport'
+      - no-store, no-cache, must-revalidate
+      Content-Length:
+      - '895'
       Content-Type:
-      - application/json; charset=utf-8
-      Cross-Origin-Opener-Policy:
-      - same-origin-allow-popups
+      - text/html; charset=UTF-8
       Date:
-      - Sun, 26 Mar 2023 08:09:18 GMT
+      - Thu, 18 Sep 2025 06:04:34 GMT
       Expires:
-      - Mon, 01 Jan 1990 00:00:00 GMT
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Location:
+      - https://www.google.com/sorry/index?continue=https://trends.google.com/trends/api/explore%3Fhl%3Den-US%26tz%3D360%26req%3D%257B%2522comparisonItem%2522%253A%2B%255B%257B%2522keyword%2522%253A%2B%2522pizza%2522%252C%2B%2522time%2522%253A%2B%25222021-01-01%2B2021-01-05%2522%252C%2B%2522geo%2522%253A%2B%2522%2522%257D%252C%2B%257B%2522keyword%2522%253A%2B%2522bagel%2522%252C%2B%2522time%2522%253A%2B%25222021-01-01%2B2021-01-05%2522%252C%2B%2522geo%2522%253A%2B%2522%2522%257D%255D%252C%2B%2522category%2522%253A%2B0%252C%2B%2522property%2522%253A%2B%2522youtube%2522%257D&hl=en-US&q=EhD9o-ciCsPMAABmsRsKhADvGPLBrsYGIi-KsVMrpbpsUBIyWqnRI38r23pCBomd1tJuPwYtOZdESwOEob1pCFE9JNxbMIlg9TICclJaAUM
       Pragma:
       - no-cache
       Server:
-      - GSE
-      Transfer-Encoding:
-      - chunked
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
+      - HTTP server (unknown)
       X-XSS-Protection:
-      - 1; mode=block
+      - '0'
     status:
-      code: 200
-      message: OK
+      code: 302
+      message: Found
 - request:
     body: null
     headers:
@@ -171,53 +119,286 @@ interactions:
       Connection:
       - keep-alive
       Cookie:
-      - NID=511=lwDJZhkVTZCsPr6lfPMRR9U2fHR8otQUgsHhSPSUrHzZLMxT9gVlpt6ArTcCLVE_IuVwKHOd_mfqQloT1EO_aIjSzfH5LZMh-sWE_NaGQIxiAu1GiTMuCV4eyy0dHR9fl2GjbKUJ5pg7_1fQLImqJRIUeEnCxOOZWuTjiSGNsfM
+      - NID=525=WK7_r1iILLDes5naC-MTs2MTaaLhA__OQ9O8kA8k0t4sa1_8zM-9BVaC2eX9VF8NjjpAU-veBkDOJfxZ9FXZh38oQ5IbWAqhtS2iM4KhYb9y9hj3XNxFNThbXorlHMCxdEt51lGUudhaUxOQPATkp9XxLaSjxf73EXnQK-nISYg
       User-Agent:
-      - python-requests/2.28.1
+      - python-requests/2.32.5
       accept-language:
       - en-US
     method: GET
-    uri: https://trends.google.com/trends/api/widgetdata/multiline?req=%7B%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22resolution%22%3A+%22DAY%22%2C+%22locale%22%3A+%22en-US%22%2C+%22comparisonItem%22%3A+%5B%7B%22geo%22%3A+%7B%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22pizza%22%7D%5D%7D%7D%2C+%7B%22geo%22%3A+%7B%7D%2C+%22complexKeywordsRestriction%22%3A+%7B%22keyword%22%3A+%5B%7B%22type%22%3A+%22BROAD%22%2C+%22value%22%3A+%22bagel%22%7D%5D%7D%7D%5D%2C+%22requestOptions%22%3A+%7B%22property%22%3A+%22youtube%22%2C+%22backend%22%3A+%22IZG%22%2C+%22category%22%3A+0%7D%2C+%22userConfig%22%3A+%7B%22userType%22%3A+%22USER_TYPE_SCRAPER%22%7D%7D&token=APP6_UEAAAAAZCFPLnHmmplgdZiclagxloiV8EqjXhSS&tz=360
+    uri: https://www.google.com/sorry/index?continue=https://trends.google.com/trends/api/explore%3Fhl%3Den-US%26tz%3D360%26req%3D%257B%2522comparisonItem%2522%253A%2B%255B%257B%2522keyword%2522%253A%2B%2522pizza%2522%252C%2B%2522time%2522%253A%2B%25222021-01-01%2B2021-01-05%2522%252C%2B%2522geo%2522%253A%2B%2522%2522%257D%252C%2B%257B%2522keyword%2522%253A%2B%2522bagel%2522%252C%2B%2522time%2522%253A%2B%25222021-01-01%2B2021-01-05%2522%252C%2B%2522geo%2522%253A%2B%2522%2522%257D%255D%252C%2B%2522category%2522%253A%2B0%252C%2B%2522property%2522%253A%2B%2522youtube%2522%257D&hl=en-US&q=EhD9o-ciCsPMAABmsRsKhADvGPLBrsYGIi-KsVMrpbpsUBIyWqnRI38r23pCBomd1tJuPwYtOZdESwOEob1pCFE9JNxbMIlg9TICclJaAUM
   response:
     body:
-      string: !!binary |
-        H4sIAAAAAAAAALTQvQrCMBAA4N2nkFtEyJBck5p0E5ycxUU6HBi1UBXatAil727UCkospYPLDff7
-        cfO0nbFJA3t7oCp3kDTgsrPNs4tdkSNIdq8EJCBibqQyyDkwOFyLMzln95tXcU2XqWBT5Cg+q8tb
-        Vv7sqCmvfHanNRMpgxOV3TlXVJY9QvqxZtt1g9Z+VkDasi+WkiruZeEgCwOW4HyUSzyvh7A48u/q
-        g0WDsOhvsIXQshcmB2EygBlkOMJl0M9iwNJc6l6WGmSpkKVGvcuo7lu+SrUt6GjL95a2vQMAAP//
-        AwCKZt3eLQMAAA==
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<head><meta
+        http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\"
+        content=\"initial-scale=1\"><title>https://trends.google.com/trends/api/explore?hl=en-US&amp;tz=360&amp;req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22pizza%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%2C+%7B%22keyword%22%3A+%22bagel%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22youtube%22%7D</title></head>\n<body
+        style=\"font-family: arial, sans-serif; background-color: #fff; color: #000;
+        padding:20px; font-size:18px; overscroll-behavior:contain;\" onload=\"e=document.getElementById('captcha');if(e){e.focus();}
+        if(solveSimpleChallenge) {solveSimpleChallenge(0,0);}\">\n<div style=\"max-width:400px;\">\n<hr
+        noshade size=\"1\" style=\"color:#ccc; background-color:#ccc;\"><br>\n<form
+        id=\"captcha-form\" action=\"index\" method=\"post\">\n<noscript>\n<div style=\"font-size:13px;\">\n
+        \ In order to continue, please enable javascript on your web browser.\n</div>\n</noscript>\n<script
+        src=\"https://www.google.com/recaptcha/enterprise.js\" async defer></script>\n<script>var
+        submitCallback = function(response) {document.getElementById('captcha-form').submit();};</script>\n<div
+        id=\"recaptcha\" class=\"g-recaptcha\" data-sitekey=\"6LfwuyUTAAAAAOAmoS0fdqijC2PbbdH4kjq62Y1b\"
+        data-callback=\"submitCallback\" data-s=\"llUk4HAel4kWUOZMM8UJzuJcBZ4VLY44Gd2NJ9Zqp8C2IreCgR8GOzT85J522K-nFC0Id_m3RHgDIK0mwH3TPKiDgutG0eb4ONp_tgtWZddysLwHdrPF7F9_vtvkiDJqEM6UG3wv-mSm_39HK7pRBVe9HplpudqjyD2ZJvZwD0W63uVmWUsrW_ThaKWsbQyTMqi9I195yLln0NKCS5Qu_5gro0cp-5LUA4DVYoLOT5pAkGwMfpDG-MH4SmFG6wgR6C0eb4rOted0KGF3Lxh2bFqKSVEq5Q\"></div>\n\n<input
+        type='hidden' name='q' value='EhD9o-ciCsPMAABmsRsKhADvGPLBrsYGIi-KsVMrpbpsUBIyWqnRI38r23pCBomd1tJuPwYtOZdESwOEob1pCFE9JNxbMIlg9TICclJaAUM'><input
+        type=\"hidden\" name=\"continue\" value=\"https://trends.google.com/trends/api/explore?hl=en-US&amp;tz=360&amp;req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22pizza%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%2C+%7B%22keyword%22%3A+%22bagel%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22youtube%22%7D\">\n</form>\n<hr
+        noshade size=\"1\" style=\"color:#ccc; background-color:#ccc;\">\n\n<div style=\"font-size:13px;
+        line-break: anywhere;\">\n<b>About this page</b><br><br>\n\nOur systems have
+        detected unusual traffic from your computer network.  This page checks to
+        see if it&#39;s really you sending the requests, and not a robot.  <a href=\"#\"
+        onclick=\"document.getElementById('infoDiv').style.display='block';\">Why
+        did this happen?</a><br><br>\n\n<div id=\"infoDiv\" style=\"display:none;
+        background-color:#eee; padding:10px; margin:0 0 15px 0; line-height:1.4em;\">\nThis
+        page appears when Google automatically detects requests coming from your computer
+        network which appear to be in violation of the <a href=\"//www.google.com/policies/terms/\">Terms
+        of Service</a>. The block will expire shortly after those requests stop.  In
+        the meantime, solving the above CAPTCHA will let you continue to use our services.<br><br>This
+        traffic may have been sent by malicious software, a browser plug-in, or a
+        script that sends automated requests.  If you share your network connection,
+        ask your administrator for help &mdash; a different computer using the same
+        IP address may be responsible.  <a href=\"//support.google.com/websearch/answer/86640\">Learn
+        more</a><br><br>Sometimes you may be asked to solve the CAPTCHA if you are
+        using advanced terms that robots are known to use, or sending requests very
+        quickly.\n</div>\n\nIP address: fda3:e722:ac3:10:66:b11b:a84:ef<br>Time: 2025-09-18T06:04:34Z<br>URL:
+        https://trends.google.com/trends/api/explore?hl=en-US&amp;tz=360&amp;req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22pizza%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%2C+%7B%22keyword%22%3A+%22bagel%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22youtube%22%7D<br>\n</div>\n</div>\n</body>\n</html>\n"
     headers:
-      Alt-Svc:
-      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
       Cache-Control:
-      - private, max-age=0
-      Content-Disposition:
-      - attachment; filename="json.txt"
-      Content-Encoding:
-      - gzip
-      Content-Security-Policy:
-      - 'script-src ''nonce-pZoeG-MUBvwYUuRH0Blr4Q'' ''unsafe-inline'' ''strict-dynamic''
-        https: http: ''unsafe-eval'';object-src ''none'';base-uri ''self'';report-uri
-        /trends/cspreport'
+      - no-store, no-cache, must-revalidate
+      Content-Length:
+      - '4207'
       Content-Type:
-      - application/json; charset=UTF-8
-      Cross-Origin-Opener-Policy:
-      - same-origin-allow-popups
+      - text/html
       Date:
-      - Sun, 26 Mar 2023 08:09:18 GMT
+      - Thu, 18 Sep 2025 06:04:34 GMT
       Expires:
-      - Sun, 26 Mar 2023 08:09:18 GMT
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Pragma:
+      - no-cache
       Server:
-      - GSE
-      Transfer-Encoding:
-      - chunked
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
+      - HTTP server (unknown)
       X-XSS-Protection:
-      - 1; mode=block
+      - '0'
     status:
-      code: 200
-      message: OK
+      code: 429
+      message: Too Many Requests
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Cookie:
+      - NID=525=WK7_r1iILLDes5naC-MTs2MTaaLhA__OQ9O8kA8k0t4sa1_8zM-9BVaC2eX9VF8NjjpAU-veBkDOJfxZ9FXZh38oQ5IbWAqhtS2iM4KhYb9y9hj3XNxFNThbXorlHMCxdEt51lGUudhaUxOQPATkp9XxLaSjxf73EXnQK-nISYg
+      User-Agent:
+      - python-requests/2.32.5
+      accept-language:
+      - en-US
+    method: GET
+    uri: https://www.google.com/sorry/index?continue=https://trends.google.com/trends/api/explore%3Fhl%3Den-US%26tz%3D360%26req%3D%257B%2522comparisonItem%2522%253A%2B%255B%257B%2522keyword%2522%253A%2B%2522pizza%2522%252C%2B%2522time%2522%253A%2B%25222021-01-01%2B2021-01-05%2522%252C%2B%2522geo%2522%253A%2B%2522%2522%257D%252C%2B%257B%2522keyword%2522%253A%2B%2522bagel%2522%252C%2B%2522time%2522%253A%2B%25222021-01-01%2B2021-01-05%2522%252C%2B%2522geo%2522%253A%2B%2522%2522%257D%255D%252C%2B%2522category%2522%253A%2B0%252C%2B%2522property%2522%253A%2B%2522youtube%2522%257D&hl=en-US&q=EhD9o-ciCsPMAABmsRsKhADvGPLBrsYGIi-KsVMrpbpsUBIyWqnRI38r23pCBomd1tJuPwYtOZdESwOEob1pCFE9JNxbMIlg9TICclJaAUM
+  response:
+    body:
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<head><meta
+        http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\"
+        content=\"initial-scale=1\"><title>https://trends.google.com/trends/api/explore?hl=en-US&amp;tz=360&amp;req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22pizza%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%2C+%7B%22keyword%22%3A+%22bagel%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22youtube%22%7D</title></head>\n<body
+        style=\"font-family: arial, sans-serif; background-color: #fff; color: #000;
+        padding:20px; font-size:18px; overscroll-behavior:contain;\" onload=\"e=document.getElementById('captcha');if(e){e.focus();}
+        if(solveSimpleChallenge) {solveSimpleChallenge(0,0);}\">\n<div style=\"max-width:400px;\">\n<hr
+        noshade size=\"1\" style=\"color:#ccc; background-color:#ccc;\"><br>\n<form
+        id=\"captcha-form\" action=\"index\" method=\"post\">\n<noscript>\n<div style=\"font-size:13px;\">\n
+        \ In order to continue, please enable javascript on your web browser.\n</div>\n</noscript>\n<script
+        src=\"https://www.google.com/recaptcha/enterprise.js\" async defer></script>\n<script>var
+        submitCallback = function(response) {document.getElementById('captcha-form').submit();};</script>\n<div
+        id=\"recaptcha\" class=\"g-recaptcha\" data-sitekey=\"6LfwuyUTAAAAAOAmoS0fdqijC2PbbdH4kjq62Y1b\"
+        data-callback=\"submitCallback\" data-s=\"0VSL1UVqHKRTOPXpXOi68uXIXKEK6GxsbkvlpmKiCoLXGTi-C8Wasl_EZiNdR5N9WZF0NdANvK1FjW38_6z-dvw-Ausct0OmhEzNLqQwtuo4GHJ4C_qF5WFBBnseWdDTzXCFEMtGsj3E2xKKSrQhx868Edzzb7nakpAK8XYdFzP8JOMrsqVyCjwPEv1-2SzKOj1Y74N3F9kJXUf175_5fowmZwEjjIZkpG0U7_7674aBPn1870InNbJNtFo30SRHVxXREH9jqPbtyBiqvXGzvXdYmikAwg\"></div>\n\n<input
+        type='hidden' name='q' value='EhD9o-ciCsPMAABmsRsKhADvGPLBrsYGIi-KsVMrpbpsUBIyWqnRI38r23pCBomd1tJuPwYtOZdESwOEob1pCFE9JNxbMIlg9TICclJaAUM'><input
+        type=\"hidden\" name=\"continue\" value=\"https://trends.google.com/trends/api/explore?hl=en-US&amp;tz=360&amp;req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22pizza%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%2C+%7B%22keyword%22%3A+%22bagel%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22youtube%22%7D\">\n</form>\n<hr
+        noshade size=\"1\" style=\"color:#ccc; background-color:#ccc;\">\n\n<div style=\"font-size:13px;
+        line-break: anywhere;\">\n<b>About this page</b><br><br>\n\nOur systems have
+        detected unusual traffic from your computer network.  This page checks to
+        see if it&#39;s really you sending the requests, and not a robot.  <a href=\"#\"
+        onclick=\"document.getElementById('infoDiv').style.display='block';\">Why
+        did this happen?</a><br><br>\n\n<div id=\"infoDiv\" style=\"display:none;
+        background-color:#eee; padding:10px; margin:0 0 15px 0; line-height:1.4em;\">\nThis
+        page appears when Google automatically detects requests coming from your computer
+        network which appear to be in violation of the <a href=\"//www.google.com/policies/terms/\">Terms
+        of Service</a>. The block will expire shortly after those requests stop.  In
+        the meantime, solving the above CAPTCHA will let you continue to use our services.<br><br>This
+        traffic may have been sent by malicious software, a browser plug-in, or a
+        script that sends automated requests.  If you share your network connection,
+        ask your administrator for help &mdash; a different computer using the same
+        IP address may be responsible.  <a href=\"//support.google.com/websearch/answer/86640\">Learn
+        more</a><br><br>Sometimes you may be asked to solve the CAPTCHA if you are
+        using advanced terms that robots are known to use, or sending requests very
+        quickly.\n</div>\n\nIP address: fda3:e722:ac3:10:66:b11b:a84:ef<br>Time: 2025-09-18T06:04:35Z<br>URL:
+        https://trends.google.com/trends/api/explore?hl=en-US&amp;tz=360&amp;req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22pizza%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%2C+%7B%22keyword%22%3A+%22bagel%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22youtube%22%7D<br>\n</div>\n</div>\n</body>\n</html>\n"
+    headers:
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Content-Length:
+      - '4207'
+      Content-Type:
+      - text/html
+      Date:
+      - Thu, 18 Sep 2025 06:04:35 GMT
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - HTTP server (unknown)
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 429
+      message: Too Many Requests
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Cookie:
+      - NID=525=WK7_r1iILLDes5naC-MTs2MTaaLhA__OQ9O8kA8k0t4sa1_8zM-9BVaC2eX9VF8NjjpAU-veBkDOJfxZ9FXZh38oQ5IbWAqhtS2iM4KhYb9y9hj3XNxFNThbXorlHMCxdEt51lGUudhaUxOQPATkp9XxLaSjxf73EXnQK-nISYg
+      User-Agent:
+      - python-requests/2.32.5
+      accept-language:
+      - en-US
+    method: GET
+    uri: https://www.google.com/sorry/index?continue=https://trends.google.com/trends/api/explore%3Fhl%3Den-US%26tz%3D360%26req%3D%257B%2522comparisonItem%2522%253A%2B%255B%257B%2522keyword%2522%253A%2B%2522pizza%2522%252C%2B%2522time%2522%253A%2B%25222021-01-01%2B2021-01-05%2522%252C%2B%2522geo%2522%253A%2B%2522%2522%257D%252C%2B%257B%2522keyword%2522%253A%2B%2522bagel%2522%252C%2B%2522time%2522%253A%2B%25222021-01-01%2B2021-01-05%2522%252C%2B%2522geo%2522%253A%2B%2522%2522%257D%255D%252C%2B%2522category%2522%253A%2B0%252C%2B%2522property%2522%253A%2B%2522youtube%2522%257D&hl=en-US&q=EhD9o-ciCsPMAABmsRsKhADvGPLBrsYGIi-KsVMrpbpsUBIyWqnRI38r23pCBomd1tJuPwYtOZdESwOEob1pCFE9JNxbMIlg9TICclJaAUM
+  response:
+    body:
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<head><meta
+        http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\"
+        content=\"initial-scale=1\"><title>https://trends.google.com/trends/api/explore?hl=en-US&amp;tz=360&amp;req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22pizza%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%2C+%7B%22keyword%22%3A+%22bagel%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22youtube%22%7D</title></head>\n<body
+        style=\"font-family: arial, sans-serif; background-color: #fff; color: #000;
+        padding:20px; font-size:18px; overscroll-behavior:contain;\" onload=\"e=document.getElementById('captcha');if(e){e.focus();}
+        if(solveSimpleChallenge) {solveSimpleChallenge(0,0);}\">\n<div style=\"max-width:400px;\">\n<hr
+        noshade size=\"1\" style=\"color:#ccc; background-color:#ccc;\"><br>\n<form
+        id=\"captcha-form\" action=\"index\" method=\"post\">\n<noscript>\n<div style=\"font-size:13px;\">\n
+        \ In order to continue, please enable javascript on your web browser.\n</div>\n</noscript>\n<script
+        src=\"https://www.google.com/recaptcha/enterprise.js\" async defer></script>\n<script>var
+        submitCallback = function(response) {document.getElementById('captcha-form').submit();};</script>\n<div
+        id=\"recaptcha\" class=\"g-recaptcha\" data-sitekey=\"6LfwuyUTAAAAAOAmoS0fdqijC2PbbdH4kjq62Y1b\"
+        data-callback=\"submitCallback\" data-s=\"CGc4rNVKwrOiUh9DvEPyuhmPusS019Rp_v25pwxi_AsFt1E_NdajfRLuaV_C99bmsCzvcXZFpveRuA0ACfCqcasTKj_yNzW_gVEDoKyzdonhH_DOVrbAlhi-c19ikrXJdcQb5ULKyeIRQpcsK3Cs5wmwEABlv_gnHNblTa4c--pRrAFnxvDGfn9XT0HCEgSIljHzHxc-5EoTzfGDxp8NHyLVUoQ4DSnERcN437_6o4nVsGLk7LbfNT4BQvYySjr7ZhkhDYfuPvbeZSA6iIR9NVxnqLE6Bw\"></div>\n\n<input
+        type='hidden' name='q' value='EhD9o-ciCsPMAABmsRsKhADvGPLBrsYGIi-KsVMrpbpsUBIyWqnRI38r23pCBomd1tJuPwYtOZdESwOEob1pCFE9JNxbMIlg9TICclJaAUM'><input
+        type=\"hidden\" name=\"continue\" value=\"https://trends.google.com/trends/api/explore?hl=en-US&amp;tz=360&amp;req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22pizza%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%2C+%7B%22keyword%22%3A+%22bagel%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22youtube%22%7D\">\n</form>\n<hr
+        noshade size=\"1\" style=\"color:#ccc; background-color:#ccc;\">\n\n<div style=\"font-size:13px;
+        line-break: anywhere;\">\n<b>About this page</b><br><br>\n\nOur systems have
+        detected unusual traffic from your computer network.  This page checks to
+        see if it&#39;s really you sending the requests, and not a robot.  <a href=\"#\"
+        onclick=\"document.getElementById('infoDiv').style.display='block';\">Why
+        did this happen?</a><br><br>\n\n<div id=\"infoDiv\" style=\"display:none;
+        background-color:#eee; padding:10px; margin:0 0 15px 0; line-height:1.4em;\">\nThis
+        page appears when Google automatically detects requests coming from your computer
+        network which appear to be in violation of the <a href=\"//www.google.com/policies/terms/\">Terms
+        of Service</a>. The block will expire shortly after those requests stop.  In
+        the meantime, solving the above CAPTCHA will let you continue to use our services.<br><br>This
+        traffic may have been sent by malicious software, a browser plug-in, or a
+        script that sends automated requests.  If you share your network connection,
+        ask your administrator for help &mdash; a different computer using the same
+        IP address may be responsible.  <a href=\"//support.google.com/websearch/answer/86640\">Learn
+        more</a><br><br>Sometimes you may be asked to solve the CAPTCHA if you are
+        using advanced terms that robots are known to use, or sending requests very
+        quickly.\n</div>\n\nIP address: fda3:e722:ac3:10:66:b11b:a84:ef<br>Time: 2025-09-18T06:04:37Z<br>URL:
+        https://trends.google.com/trends/api/explore?hl=en-US&amp;tz=360&amp;req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22pizza%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%2C+%7B%22keyword%22%3A+%22bagel%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22youtube%22%7D<br>\n</div>\n</div>\n</body>\n</html>\n"
+    headers:
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Content-Length:
+      - '4207'
+      Content-Type:
+      - text/html
+      Date:
+      - Thu, 18 Sep 2025 06:04:37 GMT
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - HTTP server (unknown)
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 429
+      message: Too Many Requests
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Cookie:
+      - NID=525=WK7_r1iILLDes5naC-MTs2MTaaLhA__OQ9O8kA8k0t4sa1_8zM-9BVaC2eX9VF8NjjpAU-veBkDOJfxZ9FXZh38oQ5IbWAqhtS2iM4KhYb9y9hj3XNxFNThbXorlHMCxdEt51lGUudhaUxOQPATkp9XxLaSjxf73EXnQK-nISYg
+      User-Agent:
+      - python-requests/2.32.5
+      accept-language:
+      - en-US
+    method: GET
+    uri: https://www.google.com/sorry/index?continue=https://trends.google.com/trends/api/explore%3Fhl%3Den-US%26tz%3D360%26req%3D%257B%2522comparisonItem%2522%253A%2B%255B%257B%2522keyword%2522%253A%2B%2522pizza%2522%252C%2B%2522time%2522%253A%2B%25222021-01-01%2B2021-01-05%2522%252C%2B%2522geo%2522%253A%2B%2522%2522%257D%252C%2B%257B%2522keyword%2522%253A%2B%2522bagel%2522%252C%2B%2522time%2522%253A%2B%25222021-01-01%2B2021-01-05%2522%252C%2B%2522geo%2522%253A%2B%2522%2522%257D%255D%252C%2B%2522category%2522%253A%2B0%252C%2B%2522property%2522%253A%2B%2522youtube%2522%257D&hl=en-US&q=EhD9o-ciCsPMAABmsRsKhADvGPLBrsYGIi-KsVMrpbpsUBIyWqnRI38r23pCBomd1tJuPwYtOZdESwOEob1pCFE9JNxbMIlg9TICclJaAUM
+  response:
+    body:
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<head><meta
+        http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\"
+        content=\"initial-scale=1\"><title>https://trends.google.com/trends/api/explore?hl=en-US&amp;tz=360&amp;req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22pizza%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%2C+%7B%22keyword%22%3A+%22bagel%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22youtube%22%7D</title></head>\n<body
+        style=\"font-family: arial, sans-serif; background-color: #fff; color: #000;
+        padding:20px; font-size:18px; overscroll-behavior:contain;\" onload=\"e=document.getElementById('captcha');if(e){e.focus();}
+        if(solveSimpleChallenge) {solveSimpleChallenge(0,0);}\">\n<div style=\"max-width:400px;\">\n<hr
+        noshade size=\"1\" style=\"color:#ccc; background-color:#ccc;\"><br>\n<form
+        id=\"captcha-form\" action=\"index\" method=\"post\">\n<noscript>\n<div style=\"font-size:13px;\">\n
+        \ In order to continue, please enable javascript on your web browser.\n</div>\n</noscript>\n<script
+        src=\"https://www.google.com/recaptcha/enterprise.js\" async defer></script>\n<script>var
+        submitCallback = function(response) {document.getElementById('captcha-form').submit();};</script>\n<div
+        id=\"recaptcha\" class=\"g-recaptcha\" data-sitekey=\"6LfwuyUTAAAAAOAmoS0fdqijC2PbbdH4kjq62Y1b\"
+        data-callback=\"submitCallback\" data-s=\"-rZLlc-CBlSKQjlZHQUBx6JuIJQEvGc0w_pVNKHHxQmIYemtj-BO72GX3o-o1Cw5jriy9qIaKHzBIVpvlAFDtF5IA2wjz_MotSQhW7r0BZXxT9sL9mBolUpUGjoAhcFqykcvkWLqMfId99pueDH3caYgZVvQIa32yci7n4N18o9S3OGlXUOU9bEsbZ7d2WtIcyiT2j5V24yLzLmguF9XEhez4voTVge0zKTYrIL5CSYv2juq-cYKYJMMjyoFdb_GGVjuzeD0SRzr75g5X6my3Vk2ITz6tA\"></div>\n\n<input
+        type='hidden' name='q' value='EhD9o-ciCsPMAABmsRsKhADvGPLBrsYGIi-KsVMrpbpsUBIyWqnRI38r23pCBomd1tJuPwYtOZdESwOEob1pCFE9JNxbMIlg9TICclJaAUM'><input
+        type=\"hidden\" name=\"continue\" value=\"https://trends.google.com/trends/api/explore?hl=en-US&amp;tz=360&amp;req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22pizza%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%2C+%7B%22keyword%22%3A+%22bagel%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22youtube%22%7D\">\n</form>\n<hr
+        noshade size=\"1\" style=\"color:#ccc; background-color:#ccc;\">\n\n<div style=\"font-size:13px;
+        line-break: anywhere;\">\n<b>About this page</b><br><br>\n\nOur systems have
+        detected unusual traffic from your computer network.  This page checks to
+        see if it&#39;s really you sending the requests, and not a robot.  <a href=\"#\"
+        onclick=\"document.getElementById('infoDiv').style.display='block';\">Why
+        did this happen?</a><br><br>\n\n<div id=\"infoDiv\" style=\"display:none;
+        background-color:#eee; padding:10px; margin:0 0 15px 0; line-height:1.4em;\">\nThis
+        page appears when Google automatically detects requests coming from your computer
+        network which appear to be in violation of the <a href=\"//www.google.com/policies/terms/\">Terms
+        of Service</a>. The block will expire shortly after those requests stop.  In
+        the meantime, solving the above CAPTCHA will let you continue to use our services.<br><br>This
+        traffic may have been sent by malicious software, a browser plug-in, or a
+        script that sends automated requests.  If you share your network connection,
+        ask your administrator for help &mdash; a different computer using the same
+        IP address may be responsible.  <a href=\"//support.google.com/websearch/answer/86640\">Learn
+        more</a><br><br>Sometimes you may be asked to solve the CAPTCHA if you are
+        using advanced terms that robots are known to use, or sending requests very
+        quickly.\n</div>\n\nIP address: fda3:e722:ac3:10:66:b11b:a84:ef<br>Time: 2025-09-18T06:04:41Z<br>URL:
+        https://trends.google.com/trends/api/explore?hl=en-US&amp;tz=360&amp;req=%7B%22comparisonItem%22%3A+%5B%7B%22keyword%22%3A+%22pizza%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%2C+%7B%22keyword%22%3A+%22bagel%22%2C+%22time%22%3A+%222021-01-01+2021-01-05%22%2C+%22geo%22%3A+%22%22%7D%5D%2C+%22category%22%3A+0%2C+%22property%22%3A+%22youtube%22%7D<br>\n</div>\n</div>\n</body>\n</html>\n"
+    headers:
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Content-Length:
+      - '4207'
+      Content-Type:
+      - text/html
+      Date:
+      - Thu, 18 Sep 2025 06:04:41 GMT
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - HTTP server (unknown)
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 429
+      message: Too Many Requests
 version: 1

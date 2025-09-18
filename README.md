@@ -42,7 +42,7 @@ Only good until Google changes their backend again :-P. When that happens feel f
 ## Requirements
 
 * Written for Python 3.3+
-* Requires Requests, lxml, Pandas
+* Requires Requests, Pandas
 
 <sub><sup>[back to top](#pytrends)</sub></sup>
 
@@ -343,7 +343,13 @@ Returns dictionary
 
 # Caveats
 
-* This is not an official or supported API
+* This is not an official or supported API. Google may change the API at any time.
+* **Google is actively blocking requests from this library.** You are likely to be rate-limited, redirected to a captcha, or blocked entirely.
+* The following API methods are known to be broken:
+    - `trending_searches`
+    - `realtime_trending_searches`
+    - `top_charts`
+* `related_topics` does not work with multiple keywords.
 * Google may change aggregation level for items with very large or very small search volume
 * Rate Limit is not publicly known, let me know if you have a consistent estimate
   * One user reports that 1,400 sequential requests of a 4 hours timeframe got them to the limit. (Replicated on 2 networks)
