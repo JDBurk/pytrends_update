@@ -126,7 +126,7 @@ class TrendReq(object):
                           connect=self.retries,
                           backoff_factor=self.backoff_factor,
                           status_forcelist=TrendReq.ERROR_CODES,
-                          method_whitelist=frozenset(['GET', 'POST']))
+                          allowed_methods=frozenset(['GET', 'POST']))
             s.mount('https://', HTTPAdapter(max_retries=retry))
 
         s.headers.update(self.headers)
@@ -411,7 +411,7 @@ class TrendReq(object):
             try:
                 top_list = req_json['default']['rankedList'][0]['rankedKeyword']
                 df_top = pd.json_normalize(top_list, sep='_')
-            except KeyError:
+            except (KeyError, IndexError):
                 # in case no top topics are found, the lines above will throw a KeyError
                 df_top = None
 
@@ -419,7 +419,7 @@ class TrendReq(object):
             try:
                 rising_list = req_json['default']['rankedList'][1]['rankedKeyword']
                 df_rising = pd.json_normalize(rising_list, sep='_')
-            except KeyError:
+            except (KeyError, IndexError):
                 # in case no rising topics are found, the lines above will throw a KeyError
                 df_rising = None
 
@@ -460,7 +460,7 @@ class TrendReq(object):
                 top_df = pd.DataFrame(
                     req_json['default']['rankedList'][0]['rankedKeyword'])
                 top_df = top_df[['query', 'value']]
-            except KeyError:
+            except (KeyError, IndexError):
                 # in case no top queries are found, the lines above will throw a KeyError
                 top_df = None
 
@@ -469,7 +469,7 @@ class TrendReq(object):
                 rising_df = pd.DataFrame(
                     req_json['default']['rankedList'][1]['rankedKeyword'])
                 rising_df = rising_df[['query', 'value']]
-            except KeyError:
+            except (KeyError, IndexError):
                 # in case no rising queries are found, the lines above will throw a KeyError
                 rising_df = None
 
