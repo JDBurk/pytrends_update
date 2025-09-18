@@ -35,7 +35,7 @@ class TrendReq(object):
     REALTIME_TRENDING_SEARCHES_URL = f'{BASE_TRENDS_URL}/api/realtimetrends'
     ERROR_CODES = (500, 502, 504, 429)
 
-    def __init__(self, hl='en-US', tz=360, geo='', timeout=(2, 5), proxies='',
+    def __init__(self, hl='en-US', tz=360, geo='', timeout=(2, 5), proxies=None,
                  retries=0, backoff_factor=0, requests_args=None):
         """
         Initialize default values for params
@@ -49,12 +49,14 @@ class TrendReq(object):
         self.geo = geo
         self.kw_list = list()
         self.timeout = timeout
-        self.proxies = proxies  # add a proxy option
+        self.proxies = proxies if proxies else []
+        if isinstance(self.proxies, str):
+            self.proxies = [self.proxies]
         self.retries = retries
         self.backoff_factor = backoff_factor
         self.proxy_index = 0
         self.requests_args = requests_args or {}
-        self.cookies = self.GetGoogleCookie()
+        self.cookies = self._get_google_cookie()
         # intialize widget payloads
         self.token_payload = dict()
         self.interest_over_time_widget = dict()
@@ -65,26 +67,11 @@ class TrendReq(object):
         self.headers = {'accept-language': self.hl}
         self.headers.update(self.requests_args.pop('headers', {}))
 
-    def GetGoogleCookie(self):
-        """
-        Gets google cookie (used for each and every proxy; once on init otherwise)
-        Removes proxy from the list on proxy error
-        """
-        while True:
-            if "proxies" in self.requests_args:
-                try:
-                    return dict(filter(lambda i: i[0] == 'NID', requests.get(
-                        f'{BASE_TRENDS_URL}/explore/?geo={self.hl[-2:]}',
-                        timeout=self.timeout,
-                        **self.requests_args
-                    ).cookies.items()))
-                except:
-                    continue
-            else:
-                if len(self.proxies) > 0:
-                    proxy = {'https': self.proxies[self.proxy_index]}
-                else:
-                    proxy = ''
+    def _get_google_cookie(self):
+        """Gets google cookie."""
+        if len(self.proxies) > 0:
+            for i in range(len(self.proxies)):
+                proxy = {'https': self.proxies[i]}
                 try:
                     return dict(filter(lambda i: i[0] == 'NID', requests.get(
                         f'{BASE_TRENDS_URL}/explore/?geo={self.hl[-2:]}',
@@ -93,22 +80,15 @@ class TrendReq(object):
                         **self.requests_args
                     ).cookies.items()))
                 except requests.exceptions.ProxyError:
-                    print('Proxy error. Changing IP')
-                    if len(self.proxies) > 1:
-                        self.proxies.remove(self.proxies[self.proxy_index])
-                    else:
-                        print('No more proxies available. Bye!')
-                        raise
-                    continue
-
-    def GetNewProxy(self):
-        """
-        Increment proxy INDEX; zero on overflow
-        """
-        if self.proxy_index < (len(self.proxies) - 1):
-            self.proxy_index += 1
+                    print(f'Proxy {self.proxies[i]} failed. Trying next proxy.')
+            # If all proxies fail
+            raise
         else:
-            self.proxy_index = 0
+            return dict(filter(lambda i: i[0] == 'NID', requests.get(
+                f'{BASE_TRENDS_URL}/explore/?geo={self.hl[-2:]}',
+                timeout=self.timeout,
+                **self.requests_args
+            ).cookies.items()))
 
     def _get_data(self, url, method=GET_METHOD, trim_chars=0, **kwargs):
         """Send a request to Google and return the JSON response as a Python object
@@ -131,15 +111,15 @@ class TrendReq(object):
 
         s.headers.update(self.headers)
         if len(self.proxies) > 0:
-            self.cookies = self.GetGoogleCookie()
+            self.proxy_index = (self.proxy_index + 1) % len(self.proxies)
             s.proxies.update({'https': self.proxies[self.proxy_index]})
         if method == TrendReq.POST_METHOD:
             response = s.post(url, timeout=self.timeout,
                               cookies=self.cookies, **kwargs,
-                              **self.requests_args)  # DO NOT USE retries or backoff_factor here
+                              **self.requests_args)
         else:
             response = s.get(url, timeout=self.timeout, cookies=self.cookies,
-                             **kwargs, **self.requests_args)  # DO NOT USE retries or backoff_factor here
+                             **kwargs, **self.requests_args)
         # check if the response contains json and throw an exception otherwise
         # Google mostly sends 'application/json' in the Content-Type header,
         # but occasionally it sends 'application/javascript
@@ -153,7 +133,6 @@ class TrendReq(object):
             # these have to be cleaned before being passed to the json parser
             content = response.text[trim_chars:]
             # parse json
-            self.GetNewProxy()
             return json.loads(content)
         else:
             if response.status_code == status_codes.codes.too_many_requests:
